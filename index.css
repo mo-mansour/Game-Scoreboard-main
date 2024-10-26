@@ -1,0 +1,112 @@
+@font-face {
+    src: url("/CursedTimerUlil-Aznm.ttf");
+    font-family: CursedTimerUlil-Aznm;
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    margin-top: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.home-guest-container {
+    display: flex;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.home-container, .guest-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-container {
+    margin-right: 40px;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+#home-score, #guest-score {
+    font-family: CursedTimerUlil-Aznm;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #F94F6D;
+    background-color: #080001;
+    width: 175px;
+    height: 155px;
+    text-align: center;
+    margin-top: 0;
+    border-radius: 15px;
+}
+
+h5 {
+    margin: 20px auto;
+    padding: auto;
+    line-height: 170%;
+}
+
+.scores-container {
+    display: flex;
+    justify-content: space-evenly;
+    color: #9AABD8;
+    margin: 20px 10px;
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    background: none;
+    border: 2px solid #9AABD8;
+    border-radius: 4px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 70%;
+    font-family: CursedTimerUlil-Aznm;
+    font-size: 18px;
+}
+
+button:hover {
+    border: none;
+    background: #080001;
+    cursor: pointer;
+}
+
+button.new-game {
+    width: 100%;
+    height: 60px;
+    background-color: #121830;
+    /*background-color: #F94F6D;*/
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+    padding: 16px 32px 16px 32px;
+}
+
+.new-game:hover {
+    background-color: #0D1124;
+}
+
